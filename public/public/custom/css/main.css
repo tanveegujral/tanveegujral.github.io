@@ -1,0 +1,112 @@
+/* Header */
+
+
+.demo-canvas {
+  margin: 0;
+  padding: 0;
+}
+
+/*.full-body{
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 350px;
+    background-color: #2A3A3F;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    
+}*/
+
+.my-container {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 350px;
+    background-color: #2A3A3F;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../assets/background.jpg');
+    
+}
+
+.my-container:before {
+        content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    
+    background-image: -webkit-linear-gradient(left, rgba(49,61,65,0.6), rgba(49,61,65,0.6));
+    background-image: linear-gradient(90deg, rgba(49,61,65,0.6), rgba(49,61,65,0.6));
+}
+.my-container div {
+    z-index: 2;
+    position: relative;
+} 
+
+.typed-cursor{
+    font-size: 20px;
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+.typed-fade-out{
+    opacity: 0;
+    animation: 0;
+    transition: opacity .25s;
+}
+
+.element{
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.40em;
+    font-weight: bolder;
+
+}
+
+.typed{
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hire-me{
+    border-radius: 50px; 
+    border:2px solid #FDCD3B;
+    color:#fff;
+}
+
+.hire-me:hover{
+    background-color: #FDCD3B;
+    color: black;
+    border:none;
+
+}
+
+.about-icon{
+    color:#FDCD3B;
+}
