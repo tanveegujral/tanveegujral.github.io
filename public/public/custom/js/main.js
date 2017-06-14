@@ -6,6 +6,7 @@
     console.log("hello1");
     console.log("master's hello");
     var a = "tanvee";
+    var a = "zahin";
     initContainer();
     initAnimation();
     addListeners();
