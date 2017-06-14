@@ -7,7 +7,7 @@
     initContainer();
     initAnimation();
     addListeners();
-    fadeIn();
+    //fadeIn();
 
     function initContainer() {
 
