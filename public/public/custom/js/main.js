@@ -4,6 +4,7 @@
 
     // Main
     console.log("hello1");
+    console.log("master's hello");
     initContainer();
     initAnimation();
     addListeners();
