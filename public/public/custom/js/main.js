@@ -3,6 +3,7 @@
     var width, height, container, canvas, ctx, points, target, animateHeader = true;
 
     // Main
+    console.log("hello");
     initContainer();
     initAnimation();
     addListeners();
