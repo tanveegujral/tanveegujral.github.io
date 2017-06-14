@@ -4,6 +4,7 @@
 
     // Main
     console.log("hello1");
+    var a = "zahin";
     initContainer();
     initAnimation();
     addListeners();
