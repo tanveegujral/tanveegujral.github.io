@@ -5,6 +5,7 @@
     // Main
     console.log("hello1");
     console.log("master's hello");
+    var a = "tanvee";
     initContainer();
     initAnimation();
     addListeners();
