@@ -1,16 +1,14 @@
 (function() {
 
+    $.get('/getIp');
+
     var width, height, container, canvas, ctx, points, target, animateHeader = true;
 
     // Main
-    console.log("hello1");
-    console.log("master's hello");
-    var a = "tanvee";
-    var a = "zahin";
     initContainer();
     initAnimation();
     addListeners();
-    //fadeIn();
+    fadeIn();
 
     function initContainer() {
 
