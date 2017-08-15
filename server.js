@@ -18,7 +18,7 @@ app.get('/getIp',function(req, res, next) {
     }
     fs.appendFile('logs.json', JSON.stringify(data)+'\n', function (err) {
         if (err) throw err;
-        console.log('Saved!');
+        //console.log('Saved!');
         res.json({success:0});
     });
    // res.sendFile(path.join(__dirname+'/index.html'));
